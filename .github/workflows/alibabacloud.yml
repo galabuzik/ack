@@ -29,7 +29,7 @@ env:
   REGION_ID: us-west-1
   REGISTRY: acr-ee-instance-01-registry.us-west-1.cr.aliyuncs.com
   NAMESPACE: test
-  IMAGE: repo
+  IMAGE: test
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: c8007f1ce5506468fb38366be92cb84c5
   ACK_DEPLOYMENT_NAME: nginx-deployment
@@ -37,7 +37,7 @@ env:
   ACR_EE_REGISTRY: acr-ee-instance-01-registry.us-west-1.cr.aliyuncs.com
   ACR_EE_INSTANCE_ID: cri-b7kwubvzuzbryr5v
   ACR_EE_NAMESPACE: test
-  ACR_EE_IMAGE: repo
+  ACR_EE_IMAGE: test
   ACR_EE_TAG: ${{ github.sha }}
 
 jobs:
