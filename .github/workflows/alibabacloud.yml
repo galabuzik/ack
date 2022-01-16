@@ -28,7 +28,7 @@ on:
 env:
   REGION_ID: us-west-1
   REGISTRY: registry-intl.us-west-1.aliyuncs.com
-  NAMESPACE: roopucloud
+  NAMESPACE: cln01
   IMAGE: test
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: c8007f1ce5506468fb38366be92cb84c5
